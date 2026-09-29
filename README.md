@@ -77,9 +77,8 @@ The first version also compared models unevenly: ARIMA was scored on data it was
 
 ## Run it
 
-1. Put `Coffee Shop Sales.csv` in the `data/` folder (the dataset is not included in this repo).
-2. Install packages: `install.packages(c("dplyr", "ggplot2", "forecast", "neuralnet"))`
-3. Open `R/coffee_sales_forecast.R` in RStudio and click **Source**. Results print to the console and the three charts appear in the Plots tab. Results are reproducible (fixed random seeds).
+1. Install packages: `install.packages(c("dplyr", "ggplot2", "forecast", "neuralnet"))`
+2. Open the repo folder in RStudio (so `data/Coffee Shop Sales.csv` is found), open `R/coffee_sales_forecast.R` and click **Source**. Results print to the console and the three charts appear in the Plots tab. Results are reproducible (fixed random seeds).
 
 ## Repository structure
 
@@ -91,7 +90,8 @@ The first version also compared models unevenly: ARIMA was scored on data it was
 │   ├── june_forecast_comparison.png
 │   ├── july_forecast.png
 │   └── peak_hours_heatmap.png
-└── data/          # add Coffee Shop Sales.csv here (not tracked)
+└── data/
+    └── Coffee Shop Sales.csv   # 149,116 transactions, Jan–Jun 2023
 ```
 
 ---
